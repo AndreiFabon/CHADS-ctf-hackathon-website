@@ -1,0 +1,20 @@
+body{background-color: black;}
+ 
+h1{ 
+    color:purple;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 100px; /* title is 100 pixel :)*/
+    font-weight:bold;
+    align-items: center; /* top bottom, right left*/
+}
+
+.box-1 p {
+    color:white;
+    line-height: 2.0em; /*em is a unit can be pixels to seperte*/
+}
+
+.container{
+    width: 500px;
+    margin: 0%; /*% will make it adjust both number is it's location*/
+    text-align: center;
+}

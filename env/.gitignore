@@ -1,0 +1,14 @@
+# Ignore Python virtual environment
+env/
+venv/
+
+# Ignore compiled files and package artifacts
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.o
+*.h  # Ignores C header files like greenlet.h
+
+# Ignore dependency folders
+.greenlet/

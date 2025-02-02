@@ -20,6 +20,9 @@ h2{
 }
 
 .box-1 p {
+    width: 500px;
+    margin: 0 auto; /*% will make it adjust both number is it's location*/
+    text-align: center;
     color:white;
     line-height: 2.0em; /*em is a unit can be pixels to seperte*/
 }
@@ -56,5 +59,36 @@ h2{
 }
 
 .NavBar a:hover {
-    color: red; /* Changes color on hover */
+    color: purple; /* Changes color on hover */
 }
+
+/* Anything below is for login html*/
+.box-2 {
+    margin: 0 auto; /*% will make it adjust both number is it's location*/
+    text-align: center;
+    color:white;
+    line-height: 2.0em; /*em is a unit can be pixels to seperte*/
+}
+
+.box-2 ul {
+    margin: 0 auto; /*% will make it adjust both number is it's location*/
+    text-align: center;
+    color:white;
+    line-height: 2.0em; /*em is a unit can be pixels to seperte*/
+    list-style: none;
+
+}
+
+.box {
+    color: white;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }

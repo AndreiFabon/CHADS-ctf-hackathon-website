@@ -19,6 +19,15 @@ h2{
     margin-top: 10px;
 }
 
+h3{ 
+    color:purple;
+    font-family :Arial, Helvetica, sans-serif;
+    font-size: 50px; /* title is 100 pixel :)*/
+    font-weight:bold;
+    text-align: center; /* top bottom, right left*/
+    margin-top: 250px; 
+}
+
 .box-1 p {
     width: 500px;
     margin: 0 auto; /*% will make it adjust both number is it's location*/

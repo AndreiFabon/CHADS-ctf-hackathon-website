@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login</title>
-        <link rel="stylesheet" type="text/css" href="static/style.css">
-    </head>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
 
-    <body>
-        <ul class="NavBar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="leaderboard.html">LeaderBoard</a></li>
-            <li><a href="submit.html">Submission</a></li>
-        </ul>
+<body>
+    <ul class="NavBar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="leaderboard.html">LeaderBoard</a></li>
+        <li><a href="submit.html">Submission</a></li>
+    </ul>
 
+    <div class="login-container">
         <h1>Login Page</h1>
-
+        
         <div class="box-2">
-            <p>
-                <ul>
-                    <li> Welcome to the Login/Signup page! </li>
-                    <li> Follow these things and you will not get shot! </li>
-                    <br>
-                    <li> SIGN UP </li>
-                    <li> - check off the signup box </li>
-                    <li> - Enter Desired team name </li>
-                    <li> - Enter Desired password for team name </li>
-                    <br>
-                    <li> LOG IN </li>
-                    <li> - If logging in, leave box unchecked </li>
-                    <li> - Enter correct team name and password </li>
-                </ul>
+            <p>Welcome to the <i>Login/Signup</i> page!</p>
+            <p>Follow these things and you will not get shot!</p>
+
+            <ul>
+                <li><strong>SIGN UP</strong></li>
+                <li>- Check off the signup box</li>
+                <li>- Enter Desired team name</li>
+                <li>- Enter Desired password for team name</li>
+                <br>
+                <li><strong>LOG IN</strong></li>
+                <li>- If logging in, leave box unchecked</li>
+                <li>- Enter correct team name and password</li>
+            </ul>
+
+            <label class="box">
+                <input type="checkbox" name="new_team"> <span>Create New Team</span>
+            </label>
+
+            <form>
+                <label for="teamName">Team Name:</label>
+                <input type="text" id="teamName" name="teamName" placeholder="Enter your team name">
                 
-                <label class="box">
-                    <input type="checkbox" name="new_team"> Create New Team
-                </label>
-
-                <form>
-                    <label for="teamName">Team Name:</label><br>
-                    <input type="text" id="teamName" name="teamName"><br>
-                    <label for="Password">Password</label><br>
-                    <input type="text" id="password" name="password">
-                </form>
-
-                
-
-            </p>
+                <label for="password">Password:</label>
+                <input type="text" id="password" name="password" placeholder="Enter your password">
+            </form>
         </div>
-
-    </body>
-
+    </div>
+</body>
 </html>
